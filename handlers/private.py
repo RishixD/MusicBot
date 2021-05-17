@@ -9,9 +9,9 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAEJar1gfUPxtIX1OutHd1sOi37QRKjBTQACPgADiHb1PyaUZ16x2sykHwQ")
     await message.reply_text(
-        f"""**Hey, I'm ⚡ 𝗖𝗢𝗙𝗙𝗜𝗡 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥 ™ ⚡
+        f"""**Hey, I'm ⚡ 𝐃𝐄𝐗𝐓𝐄𝐑 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 ™ ⚡
 
-I can play music in your group's voice call. Developed by [𝘅𝗗_𝗥𝗶𝘀𝗵𝗶 ⚡](https://t.me/xD_Rishi).
+I can play music in your group's voice call. Developed by [𝐃𝐄𝐗𝐓𝐄𝐑⚡](https://t.me/ItzMeDEXTER).
 
 Add me to your group and play music freely!**
         """,
@@ -19,17 +19,17 @@ Add me to your group and play music freely!**
             [
                 [
                     InlineKeyboardButton(
-                        "🤞🏻𝚈𝙾𝚄𝚁 𝙼𝙰𝙺𝙴𝚁🤞🏻", url="https://t.me/xD_Rishi")
+                        "🤞🏻 𝚈𝙾𝚄𝚁 𝙼𝙰𝙺𝙴𝚁 🤞🏻", url="https://t.me/ItzMeDEXTER")
                   ],[
                     InlineKeyboardButton(
-                        "🔰𝙶𝚁𝙾𝚄𝙿🔰", url="https://t.me/NiceJokeLol"
+                        "🔰 𝙶𝚁𝙾𝚄𝙿 🔰", url="https://t.me/About_ItsMeDEXTER"
                     ),
                     InlineKeyboardButton(
                         "🎛️ 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 🎛️", url="https://telegra.ph/MusicBot-Robot-MusicBot-Robo-03-14"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "😎 𝙰𝙳𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😎", url="https://t.me/MusicExeBot?startgroup=true"
+                        "😎 𝙰𝙳𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😎", url="https://t.me/DEXTER_MUSIC_WORLD_BOT?startgroup=true"
                     )]
             ]
         ),
@@ -38,12 +38,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**⚡ 𝗖𝗢𝗙𝗙𝗜𝗡 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥 ™ ⚡ is on fire 🔥 ✅**""",
+      await message.reply_text("""**⚡ 𝐃𝐄𝐗𝐓𝐄𝐑 𝐁𝐎𝐓 ™ ⚡ is on fire 🔥 ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚈 𝚈𝙾𝚄𝚁 DAD🤙🏻", url="https://t.me/xD_Rishi")
+                        "𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙱𝚈 𝚈𝙾𝚄𝚁 DAD🤙🏻", url="https://t.me/ItzMeDEXTER")
                 ]
             ]
         )
